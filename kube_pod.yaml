@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: nrg-node
+spec:
+        containers:
+        - name: private-reg-container
+          image: bdowe/private:nrg-node
+          imagePullPolicy: "Always"
+          command: [ "/bin/sh" , "-c", "tail -f /dev/null" ]
+        imagePullSecrets:
+        - name: regcred

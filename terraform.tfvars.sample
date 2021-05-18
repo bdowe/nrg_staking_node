@@ -1,0 +1,4 @@
+token = "<linode_api_token>"
+root_pass = "<linode_instance_root_password>"
+private_key_path = "<path_to_your_private_key>"
+ssh_key = "<public_key>"

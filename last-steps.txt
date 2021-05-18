@@ -1,0 +1,2 @@
+/home/nrgstaker/energi3/bin/energi3 attach
+personal.unlockAccount('0x94995fe33c263b71d21c03455457c3086cd83297', null, 0, true)
